@@ -1,0 +1,8 @@
+.env
+.venv/
+__pycache__/
+.cache/
+outputs/
+private-references/
+studio/node_modules/
+studio/.next/
