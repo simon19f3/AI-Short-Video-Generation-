@@ -1,0 +1,225 @@
+{
+  "title": "The Hands That Helped Me Grow",
+  "audience": "My family and students who are just starting university.",
+  "intent": "Show how curiosity and family support turned an uncertain student into a graduate.",
+  "style": "Natural documentary reenactment in Addis Ababa with realistic human features, warm daylight, subtle cinematic grain and restrained colors. Preserve reference identities, close-cropped hair and appearance across age transitions. Use distinct supporting characters, natural hands and believable body proportions. Keep action within the center third except group tableaux. Avoid graphic overlays or generated captions.",
+  "voice": {
+    "voice": "Kore",
+    "language": "Amharic",
+    "delivery": "Read the Amharic verbatim in a warm, clear, conversational Ethiopian Amharic voice with a steady pace."
+  },
+  "references": {
+    "toddler": {
+      "prompt": "An age-appropriate reenactment of the person in reference image zero. Preserve his recognizable features, skin tone and hair texture, age four. One waist-up character reference portrait, simple neutral backdrop, relaxed expression, no collage or text.",
+      "seed": 501,
+      "source": "portrait.jpg"
+    },
+    "child": {
+      "prompt": "An age-appropriate reenactment of the person in reference image zero. Preserve his recognizable features, skin tone and hair texture, age ten. One waist-up character reference portrait, simple neutral backdrop, relaxed expression, no collage or text.",
+      "seed": 502,
+      "source": "portrait.jpg"
+    },
+    "teen": {
+      "prompt": "An age-appropriate reenactment of the person in reference image zero. Preserve his recognizable features, skin tone and hair texture, age sixteen. One waist-up character reference portrait, simple neutral backdrop, relaxed expression, no collage or text.",
+      "seed": 503,
+      "source": "portrait.jpg"
+    },
+    "adult": {
+      "prompt": "An age-appropriate reenactment of the person in reference image zero. Preserve his recognizable features, skin tone and hair texture, age twenty-two. One waist-up character reference portrait, simple neutral backdrop, relaxed expression, no collage or text.",
+      "seed": 504,
+      "source": "portrait.jpg",
+      "direct": true
+    },
+    "family": {
+      "prompt": "Source photograph of the actual graduation celebration at the gate.",
+      "seed": 520,
+      "source": "family.jpg",
+      "direct": true
+    },
+    "gate": {
+      "prompt": "Architecture reference for the stone arch and plaques of Addis Ababa University.",
+      "seed": 521,
+      "source": "aau-gate.jpg",
+      "direct": true
+    }
+  },
+  "music": {
+    "cues": [
+      {
+        "start": 0,
+        "direction": "Sparse, gentle plucked motif and warm piano for the early years"
+      },
+      {
+        "start": 35,
+        "direction": "Moment of hesitation at university, then gradually introduce a quiet pulse"
+      },
+      {
+        "start": 59,
+        "direction": "Release into warm chords for graduation and end softly under the end card"
+      }
+    ],
+    "seeds": [
+      12,
+      27,
+      53
+    ],
+    "selected": 0
+  },
+  "end_card": {
+    "text": "MADE WITH AI",
+    "duration": 4
+  },
+  "shots": [
+    {
+      "id": "baby",
+      "title": "The beginning",
+      "purpose": "Introduce the hands that supported the narrator.",
+      "duration": 6,
+      "image_prompt": "Close natural shot of an Ethiopian mother's hands cradling her infant at home, woven blanket and soft daylight. Frame from the shoulders down to emphasize the embrace.",
+      "motion_prompt": "Hold the still image for the full shot.",
+      "narration": "ታሪኬ የጀመረው በእናቴ ሞቅ ያለ እቅፍ ውስጥ ነው።",
+      "subtitle": "My story began in my mother's warm embrace.",
+      "references": [],
+      "seed": 100,
+      "motion": "static"
+    },
+    {
+      "id": "preschool",
+      "title": "Before school",
+      "purpose": "Show curiosity before formal schooling.",
+      "duration": 6,
+      "image_prompt": "Before school, the toddler sits on the doorstep beside his mother. Her hand rests on his shoulder while he looks at a circle in the dust.",
+      "motion_prompt": "Hold the still image for the full shot.",
+      "narration": "ትንሽ ሳለሁ ያየሁትን ሁሉ ማወቅ እፈልግ ነበር።",
+      "subtitle": "As a child, I wanted to understand everything I saw.",
+      "references": [
+        "toddler"
+      ],
+      "seed": 101,
+      "motion": "static"
+    },
+    {
+      "id": "nursery",
+      "title": "The nursery classroom",
+      "purpose": "Show the first experience of learning with others.",
+      "duration": 7,
+      "image_prompt": "A young child at a low nursery table stacks colorful blocks beside two classmates, hands and tower near the center",
+      "motion_prompt": "Hold the still image for the full shot.",
+      "narration": "በመዋዕለ ሕፃናት ከሌሎች ልጆች ጋር መጫወትና መማር ጀመርኩ።",
+      "subtitle": "In nursery, I began to play and learn with other children.",
+      "references": [
+        "toddler"
+      ],
+      "seed": 102,
+      "motion": "static"
+    },
+    {
+      "id": "elementary",
+      "title": "Studying with my father",
+      "purpose": "Show the father's patient tutoring in elementary school.",
+      "duration": 8,
+      "image_prompt": "An elementary school child sits at a wooden table with his father, a workbook and pencil between them. The father sits beside him, his finger beside a simple arithmetic problem. The father is a fictional supporting portrayal with short graying hair, a narrow face and a navy sweater.",
+      "motion_prompt": "Hold the still image for the full shot.",
+      "narration": "በመጀመሪያ ደረጃ ትምህርት አባቴ ከጎኔ ቁጭ ብሎ ያስጠናኝ ነበር።",
+      "subtitle": "In elementary school, my father sat beside me and helped me study.",
+      "references": [
+        "child"
+      ],
+      "seed": 103,
+      "motion": "static"
+    },
+    {
+      "id": "highschool",
+      "title": "Studying after class",
+      "purpose": "Show how the father's support continued through secondary school.",
+      "duration": 8,
+      "image_prompt": "The same father, a few years older, sits across from his teenage son at the same wooden table with secondary-school notebooks under a desk lamp. The father is a fictional supporting portrayal with short graying hair, a narrow face and a navy sweater.",
+      "motion_prompt": "Hold the still image for the full shot.",
+      "narration": "በሁለተኛ ደረጃ ትምህርትም አባቴ አብሮኝ እያጠና ያበረታታኝ ነበር።",
+      "subtitle": "In secondary school, my father still studied with me and encouraged me.",
+      "references": [
+        "teen"
+      ],
+      "seed": 104,
+      "motion": "static"
+    },
+    {
+      "id": "freshman",
+      "title": "First day on campus",
+      "purpose": "Make the university uncertainty concrete.",
+      "duration": 8,
+      "image_prompt": "Use image zero only for the protagonist and image one for the actual Addis Ababa University main gate architecture. Show the recognizably same young man as a freshman wearing a teal backpack at the iconic carved stone arch with entrance plaques. He holds an orientation sheet and looks slightly frustrated and unsure, standing just left of center. Do not put graduation crowds in the scene.",
+      "motion_prompt": "Hold the still image for the full shot.",
+      "narration": "አዲስ አበባ ዩኒቨርሲቲ ስገባ፣ ግራ ገብቶኝ ከየት እንደምጀምር አላውቅም ነበር።",
+      "subtitle": "At Addis Ababa University, I felt lost and had no idea where to start.",
+      "references": [
+        "adult",
+        "gate"
+      ],
+      "seed": 105,
+      "motion": "static"
+    },
+    {
+      "id": "explore",
+      "title": "Trying something new",
+      "purpose": "Show the choice to explore and work with others.",
+      "duration": 7,
+      "image_prompt": "Use the face from reference zero. The same young man now confidently joins two distinctive campus friends in a classroom to discuss an early group project. One friend wears round glasses, the other has short twists. They stand beside a desk and one notebook.",
+      "motion_prompt": "Hold the still image for the full shot.",
+      "narration": "ቀስ በቀስ ፍርሃቴን ትቼ አዳዲስ ነገሮችን መሞከር ጀመርኩ።",
+      "subtitle": "Little by little, I set my fears aside and started trying new things.",
+      "references": [
+        "adult"
+      ],
+      "seed": 106,
+      "motion": "static"
+    },
+    {
+      "id": "friendship",
+      "title": "Friends who stayed",
+      "duration": 9,
+      "purpose": "Show mutual support and the university friendships that still last.",
+      "image_prompt": "Same young man from reference zero studying with the same two campus friends, one with round glasses and one with short twists. Quiet Addis Ababa University library, shared open notebook, three visually distinct people in a triangle.",
+      "motion_prompt": "Hold the still image for the full shot.",
+      "narration": "ከጓደኞቼ ጋር አብረን አጥንተን ተረዳዳን። ጓደኝነታችን እስከ ዛሬ ቀጥሏል።",
+      "subtitle": "We studied together and helped one another. Those friendships continue to this day.",
+      "references": [
+        "adult"
+      ],
+      "seed": 109,
+      "motion": "static"
+    },
+    {
+      "id": "gown",
+      "title": "My graduation portrait",
+      "purpose": "Show the original portrait as the narrator thinks about everyone who helped him.",
+      "duration": 8,
+      "image_prompt": "Display the original graduation portrait, with the navy suit, blue shirt and silver tie.",
+      "motion_prompt": "Hold the still image for the full shot.",
+      "narration": "ለምረቃ ፎቶዬ ስዘጋጅ፣ እዚህ ለመድረስ የረዱኝን አሰብኩ።",
+      "subtitle": "As I got ready for my graduation photo, I thought about everyone who helped me get there.",
+      "references": [
+        "adult"
+      ],
+      "seed": 107,
+      "motion": "static",
+      "start_frame": "adult"
+    },
+    {
+      "id": "celebration",
+      "title": "Graduation with family",
+      "purpose": "Make the achievement feel shared and echo the opening gesture.",
+      "duration": 9,
+      "image_prompt": "Display the original graduation group photo at the Addis Ababa University gate. Keep the full group visible.",
+      "motion_prompt": "Hold the still image for the full shot.",
+      "narration": "የምረቃዬን ቀን ከቤተሰቤ ጋር በደስታ አከበርኩ። ይህ ደስታ የሁላችንም ነው።",
+      "subtitle": "I celebrated my graduation with my family. That joy belonged to all of us.",
+      "references": [
+        "family"
+      ],
+      "seed": 108,
+      "motion": "static",
+      "start_frame": "family"
+    }
+  ]
+}
